@@ -7,8 +7,8 @@ import PostJob from './pages/post-job';
 import MyJobs from './pages/my-jobs';
 import SavedJob from './pages/saved-job';
 import Job from './pages/job';
-import LandingPage from './pages/LandingPage';
-import { ThemeProvider } from './theme-provider';
+import LandingPage from './pages/landing';
+import { ThemeProvider } from './components/theme-provider';
 
 const router = createBrowserRouter([
 	{
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
 				element: <JobListing/>
 			},
 			{
-				path:"/post-jobs",
+				path:"/post-job",
 				element: <PostJob/>
 			},
 			{
