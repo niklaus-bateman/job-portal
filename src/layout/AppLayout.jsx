@@ -2,7 +2,6 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/header";
 
-
 const AppLayout = () => {
 	return (
 		<div>
@@ -12,12 +11,10 @@ const AppLayout = () => {
 				<Outlet />
 			</main>
 			<div className="p-10 text-center bg-gray-800 mt-10">
-				Made with 💗 by RoadsideCoder
+				Made with ❤️ in India
 			</div>
 		</div>
 	);
 };
 
 export default AppLayout;
-
-// Made with ❤️ in India
